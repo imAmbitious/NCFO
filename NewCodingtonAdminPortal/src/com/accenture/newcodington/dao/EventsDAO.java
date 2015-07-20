@@ -15,7 +15,7 @@ public class EventsDAO {
 	private Connection connection = null;
 	private PreparedStatement statement = null;
 	private ResultSet resultSet = null;
-
+	//swag swag
 	private static String museumEventsQry = "select e.eventname,e.description,e.duration,e.eventtype,e.schedule,e.ticketprice from event e,place p,museum m "
 			+ "where e.placeid=p.placeid "
 			+ "and e.placeid='P002' "
