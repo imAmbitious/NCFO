@@ -11,4 +11,8 @@ public abstract class Building extends Place {
 	 */
 	
 	
+	public float showArea(float x, float y) {
+		return x*y;
+	}
+	
 }
